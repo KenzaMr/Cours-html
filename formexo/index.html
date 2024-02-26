@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Formulaire exercice</title>
+    <style>
+        td,th{
+            border: 1px solid black;
+            padding: 10px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption>Nouvel exercice</caption>
+            <thead>
+            <tr>
+                <td>
+                    <label for="pseudo">Pseudo</label>
+                </td>
+                <td>
+                    <input type="text" id="pseudo">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>   
+                    <input type="email" id="email">
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="calendar">Date</label>
+                </td>
+                <td>
+                    <input type="date" id="calendar">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="locomotion">Véhicule </label>
+                </td>
+                <td>
+                    <select id="locomotion">
+                        <option value="bike">Moto</option>
+                        <option value="car">Voiture</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="You">Dites-nous en plus sur vous</label>
+                </td>
+                <td>
+                    <textarea id="You"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <span>Sexe</span>
+                </td>
+                <td>
+                    <label for="men">Homme</label>
+                    <input type="radio" name="sex" id="men" value="1">
+                    <label for="women">Femme</label>
+                    <input type="radio" name="sex" id="women" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Le sport pratiqué</span>
+                </td>
+                <td>
+                    <label for="karate">Karaté</label>
+                    <input type="checkbox" id="karate" value="karate">
+                    <label for="tennis">Tennis</label>
+                    <input type="checkbox" id="tennis" value="tennis">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dowload">Télécharger votre photo</label>
+                </td>
+                <td>
+                    <input type="file" id="dowload">
+                </td>
+            </tr>
+        </tbody>
+        
+        </table>
+    </div>
+</body>
+</html>
