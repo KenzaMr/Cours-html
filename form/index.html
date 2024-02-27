@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Formulaire</title>
+</head>
+<body>
+    <div>
+        <h1>Les formulaires en HTML</h1>
+        <!--  -->
+        <form>
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" id="name">
+            </div>
+            
+            <div>
+                <label for="password">Mots de passe</label>
+                <input type="password" id="password">
+            </div>
+            
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+            <label for="calendrier">Calendrier</label>
+            <input type="date" id="calendrier">
+            </div>
+            <div>
+                <label for="Comment">Commentaire</label>
+                <textarea id="Comment" ></textarea>
+            </div>
+            <div>
+                <label for="locomotion">Moyen de transport </label>
+                <select id="locomotion">
+                    <option value="car">voiture</option>
+                    <option value="bike">moto</option>
+                </select>
+            </div>
+
+            <div>
+                <span>Quel sport pratiquez-vous ?</span>
+                <label for="football">foot</label>
+                <input type="checkbox" id="football" value="football">
+                <label for="climb">escalade</label>
+                <input type="checkbox" id="climb" value="escalade">
+            </div>
+
+            <div>
+                <span>Quel est votre sexe?</span>
+                <label for="men">Homme</label>
+                <input type="radio" id="men" value="1" name="sex">
+                <label for="women">Femme</label>
+                <input type="radio" id="women" value="0" name="sex">
+            </div>
+
+            <!-- IMPORTANT un form doit avoir un input type="submit" pour valider le formulaire -->
+           <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
