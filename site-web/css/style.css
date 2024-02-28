@@ -7,25 +7,46 @@
 body{
     font-family: Arial, Helvetica, sans-serif ;
 }
+/* COMPONENTS */
+.btn{
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(187, 23, 23);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn:hover{
+    color: grey;
+}
+/* Section hero */
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent) ,url(../img/pexels-buro-millennial-1438072\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    min-height: 300px;
+    padding: 50px;
+    color: #fff;
+}
+.hero h1{
+
+    margin-bottom: 50px;
+}
+.hero strong{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/* Section About-us */
 .about-us h2{ 
     text-transform: uppercase;
     color: #444;
     text-align: center;
     margin-bottom: 10px;
-}
-.hero h1{
-    color: white;
-    text-align: center;
-}
-.hero strong{
-    text-transform: uppercase;
-}
-.hero{
-    background-color: blue;
-}
-.hero p{
-    text-align: center;
-    text-transform: uppercase;
 }
 .about-us{
     display: block;
