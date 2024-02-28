@@ -1,0 +1,66 @@
+/* * est le sélecteur universelle, il cible tous les elements HTML */
+/* On opert un Resert (on reinitialise les valeurs et comportements par défaut) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* La valeur par défaut d'un élement block est {display: block; } */
+    display: block;
+
+    color: white;
+    /* Permet de mettre une couleur de fond */
+    background-color: saddlebrown;
+    /* Mettre de la hauteur */
+    height: 300px;
+    /* Largeur  */
+    width: 300px;
+    /* Margin sert à mettre de la marge extérieur, il y a pleins de raccourcis */
+    /* margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    /* Utiliser le margin d'une façon plus simple, ici les 4 caractéristiques fonctionnent comme le sens d'une horloge */
+    /* margin: 50px 100px 75px 90px;
+    margin: 50px 100px; */ 
+    /* Pour centrer un block dans la largeur*/
+    margin: 50px auto;
+
+    /* Padding sert à mettre de la marge intérieur */
+    /* padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding: 20px 50px 60px 70px;
+    padding: 30px 60px;
+    padding: 40px; */
+    /* padding: 0 100px; */
+    border: 20px solid black;
+}
+
+h1{
+    background-color: grey;
+    color: beige;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+/* Exo */
+/* Appellez l'élement circle  
+    Mettez une largeur et une hauteur de 200px
+    Centrer dans la page
+    Couleur de fond #eb5858*/
+.circle{
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    background-color: #eb5858;
+    /* Pour arrondir les bords */
+    /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
+    border-radius: 50%;
+    padding: 50px 20px;
+    /* Des ombres  */
+    /* {box-shadow } permet de créer une ombre */
+    box-shadow: 10px 10px 20px black;
+}

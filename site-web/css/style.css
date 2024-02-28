@@ -1,0 +1,50 @@
+*{
+    /* Ici je reinitialise mes valeurs  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.about-us h2{ 
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+}
+.hero strong{
+    text-transform: uppercase;
+}
+.hero{
+    background-color: blue;
+}
+.hero p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-us{
+    display: block;
+    min-height: 300px;
+    margin:auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+
+}
+.about-us  p{
+    margin: 10px;
+}
+.about-us a{
+    text-decoration: none;
+    color: rgb(201, 62, 62);
+}
+
+.about-us a:hover{ 
+    color: rgb(173, 141, 141);
+}
