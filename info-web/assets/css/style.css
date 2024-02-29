@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin: auto;
+}
+header h1{
+    margin-bottom: 10px;
+}
+main{
+    width: 800px;
+   margin: 150px auto 50PX auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.171);
+   border-radius:10px ;
+}
+.first-txt img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    object-fit: cover;
+    object-position:top center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(112, 108, 108);   
+}
+h2{
+    color: #007bff;
+    text-align: center;
+    padding: 30px;
+}
+.first-txt p{ 
+    margin-bottom: 10px;
+}
+.first-txt ul{ 
+    padding-left: 20px;
+}
+.first-txt ul li{
+    padding-bottom: 5px;
+}
+.second-txt{
+    margin: 50px auto;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(rgb(0, 0, 0,0.6), transparent) ,url(../img/lever-soleil.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.second-txt h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 50px auto;
+}
+.third-txt{
+    margin: 50px auto;
+    padding: auto;
+}
+.third-txt p{
+    margin-bottom: 10px;
+}
+.third-txt ol{
+    padding-left: 20px;
+}
+.third-txt ol li {
+    padding-bottom: 5px;
+}
+.up{
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 15px;
+    position: fixed;
+    bottom: 100px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
