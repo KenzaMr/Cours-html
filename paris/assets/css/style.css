@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: #333;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a{
+    color: #fff;
+}
+.logo{
+    font-weight: bold;
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-txt{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), transparent),url(../img/tour-eiffel.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+/* Correction du .first-txt */
+/* .first-txt{
+    display:flex
+    flex-direction:column
+    justify-content: center
+    align-itemps: center
+    gap: 50px
+    
+    height:350px
+    text-align: center 
+    color: #fff
+    
+    background-color: blue
+    background-image: linear-gradient (.....), url(djuh/oshh.jpg)
+    background-size: cover 
+    background-position: bottom*/
+.first-txt h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 150px;
+}
+.first-txt p{ 
+    font-style: italic;
+    padding: 50px;
+}
+.btn{
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.up{
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 80%;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+@media screen and (max-width: 600px) {
+    header{ 
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+        
+    }
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and(max-width: 450px) {
+    nav{
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+}

@@ -1,0 +1,37 @@
+/* Pour plus d'organisation mettre le css qui convient à la page index ici */
+.second-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    min-height: 350px;
+}
+.second-txt{
+    padding: 50px;
+}
+.second-txt h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.second-txt p{ 
+    display: flex;
+}
+.item{ 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.item img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    gap: 50px;
+}
